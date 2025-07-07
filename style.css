@@ -119,13 +119,30 @@ img{
     padding: 20px;
     margin-top: 30px;
 }
-@media(max-width: 768px){
+@media(max-width: 1250px){
     .hero{
         flex-direction: column;
         text-align: center;
+        padding: 60px;
+    }
+    img{
+        padding: 60px;
+        border-radius: 15%;
+        width: 400px;
+        height: 200px;
     }
     .class-list{
         flex-direction: column;
         align-items: center;
+    }
+    .Contact{
+        margin-top: 100px;
+    }
+    .footer{
+        margin-top: 100px; 
+    }
+    .classes{
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
